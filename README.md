@@ -4,3 +4,7 @@ SpringMVC is a WEB layer framework that uses the spring controllers for url mapp
 
 Spring framework on the other hand uses JAVA SE Annotation and Reflection to implment its dependecy injection(IOC) and AOP to allow decoupling and faster development. 
 Therefore this project  will use JAVA Annotation and Reflection and servlet to implment our own SPRING and SPRINGMVC Framework. To help build a strong understanding on why these annotations and mechanism work at the source code level.
+
+The two diagrams below will show how I will implment Spring and SpringMVC without using the related libraries：
+
+
