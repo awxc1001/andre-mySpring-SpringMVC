@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans>
+    <!--配置自动扫描包-->
+    <!--多的包用逗号放开，这样xml工具类好处理一点-->
+    <component-scan base-package="com.andre.controller,com.andre.service"/>
+</beans>
