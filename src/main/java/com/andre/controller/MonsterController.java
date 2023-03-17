@@ -29,7 +29,7 @@ public class MonsterController {
         //设置编码和返回类型
         response.setContentType("text/html;charset=utf-8");
 
-        StringBuilder content = new StringBuilder("<h1>妖怪列表信息</h1>");
+        StringBuilder content = new StringBuilder("<h1>monster list info</h1>");
         //调用monsterService
         List<Monster> monsters = monsterService.listMonster();
         content.append("<table border='1px' width='500px' style='border-collapse:collapse'>");
@@ -60,7 +60,7 @@ public class MonsterController {
         //设置编码和返回类型
         response.setContentType("text/html;charset=utf-8");
         System.out.println("--received requestParam name---" + name);
-        StringBuilder content = new StringBuilder("<h1>妖怪列表信息</h1>");
+        StringBuilder content = new StringBuilder("<h1>monster list info</h1>");
         //调用monsterService
         List<Monster> monsters = monsterService.findMonsterByName(name);
         content.append("<table border='1px' width='400px' style='border-collapse:collapse'>");
@@ -89,7 +89,7 @@ public class MonsterController {
         //设置编码和返回类型
         response.setContentType("text/html;charset=utf-8");
         System.out.println("--received requestParam name---" + name);
-        StringBuilder content = new StringBuilder("<h1>妖怪列表信息</h1>");
+        StringBuilder content = new StringBuilder("<h1>monster list info</h1>");
         //调用monsterService
         List<Monster> monsters = monsterService.findMonsterByName(name);
         content.append("<table border='1px' width='400px' style='border-collapse:collapse'>");

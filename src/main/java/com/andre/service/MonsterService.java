@@ -17,4 +17,7 @@ public interface MonsterService {
 
 
     public boolean login(String name);
+
+
+
 }

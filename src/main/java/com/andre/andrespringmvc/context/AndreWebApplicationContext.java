@@ -84,7 +84,7 @@ public class AndreWebApplicationContext {
         //获取类加载器在target的路径
         //得到包所在的工作路径[绝对路径]
         //下面这句话的含义是 通过类的加载器，得到指定的包对应的 工作路径[绝对路径]
-        //比如 "com.hspedu.controller" => url 是 D:\JAVAWEB\springmvc_code\andre-myspringmvc\target\andre-myspringmvc\WEB-INF\classes\com\andre\controller
+        //比如 "com.andre.controller" => url 是 D:\JAVAWEB\springmvc_code\andre-myspringmvc\target\andre-myspringmvc\WEB-INF\classes\com\andre\controller
         //如果不用替换符号，debug下来，url会是空的
         //细节说明： 1. 不要直接使用Junit测试, 否则 url null
         //             2. 启动tomcat来吃测试

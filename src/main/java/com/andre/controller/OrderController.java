@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * @author 韩顺平
+ * @author Andre Wang
  * @version 1.0
  */
 @Controller
@@ -23,7 +23,7 @@ public class OrderController {
         //获取writer返回信息
         try {
             PrintWriter printWriter = response.getWriter();
-            printWriter.write("<h1>订单列表信息</h1>");
+            printWriter.write("<h1>order list info</h1>");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -37,7 +37,7 @@ public class OrderController {
         //获取writer返回信息
         try {
             PrintWriter printWriter = response.getWriter();
-            printWriter.write("<h1>添加订单...</h1>");
+            printWriter.write("<h1>adding some orders...</h1>");
         } catch (IOException e) {
             e.printStackTrace();
         }

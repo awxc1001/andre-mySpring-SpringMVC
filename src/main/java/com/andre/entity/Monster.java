@@ -1,7 +1,7 @@
 package com.andre.entity;
 
 /**
- * @author Andr Wang
+ * @author Andre Wang
  * @version 1.0
  */
 public class Monster {

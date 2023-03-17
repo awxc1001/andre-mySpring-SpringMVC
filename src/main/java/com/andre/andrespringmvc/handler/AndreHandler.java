@@ -3,9 +3,8 @@ package com.andre.andrespringmvc.handler;
 import java.lang.reflect.Method;
 
 /**
- * @author 韩顺平
+ * @author Andre Wang
  * @version 1.0
- * HspHandler 对象记录请求的 url 和 控制器方法映射关系
  */
 public class AndreHandler {
     private String url;

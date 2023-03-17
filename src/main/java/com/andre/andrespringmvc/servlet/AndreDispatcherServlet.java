@@ -29,7 +29,7 @@ import java.util.Map;
 
 /**
  * 前端中央控制器
- * 1. HspDispatcherServlet充当原生DispatcherServlet
+ * 充当原生DispatcherServlet
  * 2. 本质是一个Servlet, 继承HttpServlet
  * 3. 提示: 这里需要使用到java web 讲解的Servlet
  */
@@ -114,14 +114,14 @@ public class AndreDispatcherServlet extends HttpServlet {
 
     }
 
-    //编写方法，通过request对象，返回HspHandler对象
+    //编写方法，通过request对象，返回Handler对象
     //如果没有，就返回null
     private AndreHandler getAndreHandler(HttpServletRequest request) {
         //1.先获取的用户请求的uri 比如http://localhost:8080/springmvc/monster/list
         //  uri = /springmvc/monster/list
         //2. 这里小伙伴要注意得到uri 和 保存url 是有一个工程路径的问题
         // 两个方案解决 =>第一个方案: 简单 tomcat 直接配置 application context =>/
-        // 第二个方案 保存 hsphandler对象 url 拼接 getServletContext().getContextPath()
+        // 第二个方案 保存 handler对象 url 拼接 getServletContext().getContextPath()
         String requestURI = request.getRequestURI();
         System.out.println();
         //遍历handlerList
